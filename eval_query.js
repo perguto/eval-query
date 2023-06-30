@@ -4,3 +4,8 @@ const q = params.get('q')
 
 eval(q)
 
+const result = eval(q)
+const textField = document.createElement('code')
+
+textField.innerText = result
+
