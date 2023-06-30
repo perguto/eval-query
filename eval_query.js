@@ -8,4 +8,5 @@ const result = eval(q)
 const textField = document.createElement('code')
 
 textField.innerText = result
+document.body.append(textField)
 
